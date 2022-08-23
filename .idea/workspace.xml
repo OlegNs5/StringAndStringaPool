@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f955a840-f47b-4316-91cf-a222751d54c9" name="Changes" comment="Concatenarea Stringurilor (chiar si cu tipuri de date diferite)">
-      <change afterPath="$PROJECT_DIR$/src/ctrln/StringBuferUsege.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ctrln/StringBuilderUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ctrln/StringImmutability.java" afterDir="false" />
+    <list default="true" id="f955a840-f47b-4316-91cf-a222751d54c9" name="Changes" comment="Clasele...StringImmutability,StringBuilder,StringBuffer,">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringConcatenation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ctrln/StringConcatenation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringUsege.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ctrln/StringUsege.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StringAndStringaPool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/StringAndStringPool.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ctrln/StringBuferUsege.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ctrln/StringBuferUsege.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ctrln/StringBuilderUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ctrln/StringBuilderUsage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ctrln/StringImmutability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ctrln/StringImmutability.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
   <component name="RunManager" selected="Application.StringBuferUsege">
     <configuration name="StringBilderUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ctrln.StringBilderUsage" />
-      <module name="StringAndStringaPool" />
+      <module name="StringAndStringPool" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ctrln.*" />
@@ -56,7 +55,7 @@
     </configuration>
     <configuration name="StringBuferUsege" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ctrln.StringBuferUsege" />
-      <module name="StringAndStringaPool" />
+      <module name="StringAndStringPool" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ctrln.*" />
@@ -69,7 +68,7 @@
     </configuration>
     <configuration name="StringBuilderUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ctrln.StringBuilderUsage" />
-      <module name="StringAndStringaPool" />
+      <module name="StringAndStringPool" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ctrln.*" />
@@ -82,14 +81,14 @@
     </configuration>
     <configuration name="StringImmutability" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ctrln.StringImmutability" />
-      <module name="StringAndStringaPool" />
+      <module name="StringAndStringPool" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ctrln.StringConcatenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ctrln.StringConcatenation" />
-      <module name="StringAndStringaPool" />
+      <module name="StringAndStringPool" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,8 +97,8 @@
       <list>
         <item itemvalue="Application.StringBuferUsege" />
         <item itemvalue="Application.StringBuilderUsage" />
+        <item itemvalue="Application.StringImmutability" />
         <item itemvalue="Application.StringBilderUsage" />
-        <item itemvalue="Application.ctrln.StringImmutability" />
         <item itemvalue="Application.ctrln.StringConcatenation" />
       </list>
     </recent_temporary>
@@ -127,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660109008609</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Clasele...StringImmutability,StringBuilder,StringBuffer,">
+      <created>1660190838580</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660190838580</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +150,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Stringuri comparatii intre stringuri" />
     <MESSAGE value="Concatenarea Stringurilor (chiar si cu tipuri de date diferite)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Concatenarea Stringurilor (chiar si cu tipuri de date diferite)" />
+    <MESSAGE value="Clasele...StringImmutability,StringBuilder,StringBuffer," />
+    <option name="LAST_COMMIT_MESSAGE" value="Clasele...StringImmutability,StringBuilder,StringBuffer," />
   </component>
 </project>
