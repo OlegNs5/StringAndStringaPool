@@ -2,7 +2,18 @@ package ctrln;
 
 import java.util.Objects;
 
-public class Client {
+public class Client extends Person {
+
+    public Client(){}
+
+    public Client(String cnp){//Apeleaza contructorul Person din clasa parinte Prson(sau cu vintul cheie "super")
+        super (cnp);
+    }
+    public Client(String clientName,int clientId,String cnp){
+        super(cnp);
+        this.clientName = clientName;
+        this.clientId = clientId;
+    }
     private String clientName;
     private int clientId;
 

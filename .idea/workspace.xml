@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f955a840-f47b-4316-91cf-a222751d54c9" name="Changes" comment="GarbageCollection">
+    <list default="true" id="f955a840-f47b-4316-91cf-a222751d54c9" name="Changes" comment="GarbageCollection 1.1 Practice">
+      <change afterPath="$PROJECT_DIR$/src/ctrln/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ctrln/PersonUsage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ctrln/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ctrln/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ctrln/GarbageCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ctrln/GarbageCollection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,7 @@
     "extract.method.default.visibility": "private"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GarbageCollection">
+  <component name="RunManager" selected="Application.PersonUsage">
     <configuration name="ClientUsege" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ctrln.ClientUsege" />
       <module name="StringAndStringPool" />
@@ -54,6 +55,19 @@
     </configuration>
     <configuration name="GarbageCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ctrln.GarbageCollection" />
+      <module name="StringAndStringPool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ctrln.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ctrln.PersonUsage" />
       <module name="StringAndStringPool" />
       <extension name="coverage">
         <pattern>
@@ -91,20 +105,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringImmutability" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ctrln.StringImmutability" />
-      <module name="StringAndStringPool" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PersonUsage" />
         <item itemvalue="Application.GarbageCollection" />
         <item itemvalue="Application.ClientUsege" />
         <item itemvalue="Application.StringBuferUsege" />
         <item itemvalue="Application.StringBuilderUsage" />
-        <item itemvalue="Application.StringImmutability" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661394765158</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="GarbageCollection 1.1 Practice">
+      <created>1661400052438</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661400052438</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +186,7 @@
     <MESSAGE value="Clasele...StringImmutability,StringBuilder,StringBuffer," />
     <MESSAGE value="EXEMPLE cu Stringuri...StringImmutability,StringBuilder,StringBuffer," />
     <MESSAGE value="GarbageCollection" />
-    <option name="LAST_COMMIT_MESSAGE" value="GarbageCollection" />
+    <MESSAGE value="GarbageCollection 1.1 Practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="GarbageCollection 1.1 Practice" />
   </component>
 </project>
