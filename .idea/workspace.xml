@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f955a840-f47b-4316-91cf-a222751d54c9" name="Changes" comment="Clasele...StringImmutability,StringBuilder,StringBuffer,">
+    <list default="true" id="f955a840-f47b-4316-91cf-a222751d54c9" name="Changes" comment="EXEMPLE cu Stringuri...StringImmutability,StringBuilder,StringBuffer,">
+      <change afterPath="$PROJECT_DIR$/src/ctrln/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ctrln/ClientUsege.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ctrln/GarbageCollection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringAndStringaPool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/StringAndStringPool.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ctrln/StringBuferUsege.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ctrln/StringBuferUsege.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ctrln/StringBuilderUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ctrln/StringBuilderUsage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ctrln/StringImmutability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ctrln/StringImmutability.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +38,22 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StringBuferUsege">
-    <configuration name="StringBilderUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ctrln.StringBilderUsage" />
+  <component name="RunManager" selected="Application.GarbageCollection">
+    <configuration name="ClientUsege" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ctrln.ClientUsege" />
+      <module name="StringAndStringPool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ctrln.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GarbageCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ctrln.GarbageCollection" />
       <module name="StringAndStringPool" />
       <extension name="coverage">
         <pattern>
@@ -86,20 +98,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ctrln.StringConcatenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ctrln.StringConcatenation" />
-      <module name="StringAndStringPool" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GarbageCollection" />
+        <item itemvalue="Application.ClientUsege" />
         <item itemvalue="Application.StringBuferUsege" />
         <item itemvalue="Application.StringBuilderUsage" />
         <item itemvalue="Application.StringImmutability" />
-        <item itemvalue="Application.StringBilderUsage" />
-        <item itemvalue="Application.ctrln.StringConcatenation" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660190838580</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="EXEMPLE cu Stringuri...StringImmutability,StringBuilder,StringBuffer,">
+      <created>1661222620299</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661222620299</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,6 +163,7 @@
     <MESSAGE value="Stringuri comparatii intre stringuri" />
     <MESSAGE value="Concatenarea Stringurilor (chiar si cu tipuri de date diferite)" />
     <MESSAGE value="Clasele...StringImmutability,StringBuilder,StringBuffer," />
-    <option name="LAST_COMMIT_MESSAGE" value="Clasele...StringImmutability,StringBuilder,StringBuffer," />
+    <MESSAGE value="EXEMPLE cu Stringuri...StringImmutability,StringBuilder,StringBuffer," />
+    <option name="LAST_COMMIT_MESSAGE" value="EXEMPLE cu Stringuri...StringImmutability,StringBuilder,StringBuffer," />
   </component>
 </project>
