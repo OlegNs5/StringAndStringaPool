@@ -42,4 +42,7 @@ public class Client {
     public int hashCode() {
         return Objects.hash(clientName, clientId);
     }
+    protected void finalize() throws Throwable{
+        System.out.println("Reciclarea memoriei pentru obieactul " + this);
+    }
 }
